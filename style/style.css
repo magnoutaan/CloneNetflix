@@ -1,0 +1,86 @@
+/*Code css do header/cabecalho do meu FLIXMAG */
+:root{
+    --vermelho: red;
+    --preto: black;
+}
+header  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+
+}
+header h2{
+    color: red;
+    font-size: 40px;
+    font-family: 'Arial Black', Times, serif;
+    margin-right: 20px;
+   
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+header nav a{
+    color:#AAA;
+    text-decoration: none;
+
+}
+header nav a:hover{
+    color: white;
+}
+header h2:hover{
+    color: white;
+}
+/*Code css do main/conteudo do meu FLIXMAG */
+.filme{
+   background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url('/img/hacker.jpeg');
+   height: 400px;
+   background-size: cover;
+
+   display: flex;
+   flex-direction: column;
+   justify-content:center;
+   align-items: flex-start;
+    
+}
+.container .discricao{
+    margin-bottom: 40px;
+}
+.titulo{
+    font-size: 70px;
+}
+.botao{
+    background: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 25px 30px;
+    margin-right: 10xp;
+    font-size: 16px;
+
+    cursor: pointer;
+    transition: .6s ease all;
+
+}
+ main button:hover{
+    color: red;
+    background-color: white;
+}
+.container{
+    margin-left: 20px;
+    width: 90%;
+}
+.box-filme{
+    height: 100%;
+    width: 100%;
+    
+}
